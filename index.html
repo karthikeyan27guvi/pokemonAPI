@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Pokemon api</title>
+<link rel="stylesheet" href="./style.css">
+</head>
+<body>
+<h3>Pokémon</h3>
+<div class="container">
+<div class="form-control">
+    <select id="pokemonName" required>
+        <option value="">Select a Pokémon</option>
+        <option value="bulbasaur">Bulbasaur</option>
+        <option value="ivysaur">Ivysaur</option>
+        <option value="venusaur">Venusaur</option>
+        <option value="charmander">Charmander</option>
+        <option value="charmeleon">Charmeleon</option>
+        <option value="charizard">Charizard</option>
+        <option value="squirtle">Squirtle</option>
+        <option value="wartortle">Wartortle</option>
+        <option value="blastoise">Blastoise</option>
+        <option value="caterpie">Caterpie</option>
+        <option value="metapod">Metapod</option>
+        <option value="butterfree">Butterfree</option>
+        <option value="weedle">Weedle</option>
+        <option value="kakuna">Kakuna</option>
+        <option value="beedrill">Beedrill</option>
+        <option value="pidgey">Pidgey</option>
+        <option value="pidgeotto">Pidgeotto</option>
+        <option value="pidgeot">Pidgeot</option>
+        <option value="rattata">Rattata</option>
+        <option value="raticate">Raticate</option>
+    </select>
+    </div>
+<button onclick="fetchData()">Fetch Pokemon</button>
+<br>
+<img src="" alt="pokemonSprite" id="pokemonSprite" style="display: none;">
+</div>
+<script src="./script.js"></script>
+<script src="https://app.zenclass.in/sheets/v1/js/zen/suite/bundle.js"></script>
+</body>
+</html>
+
